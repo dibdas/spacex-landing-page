@@ -1,0 +1,42 @@
+.searchform-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* margin-block: 4rem; */
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 600px;
+  /* margin: 0 auto; */
+  margin-block: 5rem;
+  margin-inline:auto ;
+}
+
+select,
+input[type="text"],
+input[type="number"] {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
