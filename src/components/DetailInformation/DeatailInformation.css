@@ -1,0 +1,44 @@
+.detail-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #ff6f00;
+  }
+  
+  .detail-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  p {
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  .strong {
+    font-weight: bold;
+  }
+  
+  .missions-title {
+    color: #673ab7;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  li {
+    color: #009688;
+    font-size: 1.4rem;
+  }
+  
+  .flight {
+    color: #cddc39;
+  }
+  

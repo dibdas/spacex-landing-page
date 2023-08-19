@@ -20,7 +20,7 @@ function SearchForm({ onSearch }) {
   const handleSubmit = (event) => {
     event.preventDefault();
     // console.log("submit");
-    // console.log(filters);
+    console.log(filters);
     onSearch(filters);
 
     navigate("/data");

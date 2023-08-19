@@ -1,0 +1,37 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a600ff;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .navbar-link:hover {
+    background-color: #a7b300;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-container {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .navbar-links {
+      margin-top: 10px;
+    }
+  }
+  
